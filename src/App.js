@@ -2,9 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import './homepage.styles.scss';
+import './pages/homepage/homepage.styles.scss';
 
-import Homepage from './homepage.component';
+import Homepage from './pages/homepage/homepage.component';
 
 function App() {
   return <div>
