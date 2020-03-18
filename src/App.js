@@ -6,21 +6,15 @@ import './App.css';
 
 import './pages/homepage/homepage.styles.scss';
 
-import Homepage from './pages/homepage/homepage.component';
+import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shop/shop.component'
 
-const Hats = () => (
-  <div>
-    <h1>
-      HATS
-    </h1>
-  </div>
-  );
 
 function App() {
   return <div>
     <Switch>
-      <Route exact path='/' component={Homepage} />
-      <Route exact path='/hats' component={Hats} />
+      <Route exact path='/' component={HomePage} />
+      <Route exact path='/shop' component={ShopPage} />
     </Switch>
   </div>
 }
